@@ -1,6 +1,11 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## [2.3.0]
+
+### Added
+- Colorblind friendly Okabe-Ito color palette
+
 ## [2.2.0] - 2024-09-03
 
 ### Added

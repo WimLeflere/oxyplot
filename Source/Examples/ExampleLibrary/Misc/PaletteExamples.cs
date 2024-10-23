@@ -142,5 +142,11 @@ namespace ExampleLibrary
         {
             return HeatMapSeriesExamples.CreatePeaks(OxyPalettes.Jet(6), false);
         }
+
+        [Example("Okabe-Ito palette")]
+        public static PlotModel OkabeIto()
+        {
+            return HeatMapSeriesExamples.CreatePeaks(OxyPalettes.OkabeIto, false);
+        }
     }
 }

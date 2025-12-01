@@ -132,7 +132,7 @@ namespace OxyPlot.Legends
             set;
         }
 
-        private Dictionary<Series.Series, OxyRect> SeriesPosMap { get; set; }
+        protected Dictionary<Series.Series, OxyRect> SeriesPosMap { get; set; }
 
         /// <summary>
         /// Gets or sets the textcolor of invisible series.
